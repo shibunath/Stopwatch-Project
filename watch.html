@@ -1,0 +1,53 @@
+<html>
+    
+<head>
+<link rel="stylesheet" type="text/css" href="watch.css"> <!--Linking the stylesheet -->
+<title>Dual Stopwatch</title>
+    
+  <div id="header">  
+      <center>
+      <h1>Dual Stopwatch</h1>   <!--  Header -->
+      </center>
+  </div>   
+</head>
+ 
+<body> 
+    
+
+    
+<div id="watch1">
+    <h1 id="forward"><time><center>00:00:00:00</center></time></h1> <!--  Forward Stopwatch -->
+   <div id="boxtext"><center>Forward Watch</center></div>
+</div>
+
+<div id="watch2">
+    <h1 id="reverse"><time><center>00:00:00:00</center></time></h1> <!--  Backward Stopwatch -->
+  <div id="boxtext"><center>Reverse Watch</center></div>
+</div>
+<div id="watches">
+    <div id="set1">
+        <button id="start">Start</button>
+        <button id="stop">Pause</button>
+        <button id="clear">Reset</button>
+    </div>
+        
+
+        
+<div id="entry" align="center">
+    <form id="form1">
+    Counter Target:<input id="counterTarget" type="text" name="counterTarget" size="20"/>
+    </form>   
+</div>
+
+   <div id="set2" align="right">     
+        <button id="starts">Start</button> 
+        <button id="stops">Pause</button>
+        <button id="clears">Reset</button>     
+    </div>
+    
+</div>    
+</body>
+    
+    <script src="watchforward.js"></script>   <!--Linking the javascript files -->
+    <script src="watchreverse.js"></script>
+</html>

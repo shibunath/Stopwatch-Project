@@ -1,0 +1,100 @@
+
+#counterTarget
+{
+       background-image: linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+ 
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    height: 25px;
+    padding: 5px 10px 5px 5px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 3px;  
+}
+
+body
+{
+    background-color: black;
+}
+
+#boxtext
+{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#watch1
+{
+    position: relative;
+    color: red;
+    border: 5px solid navy;
+    width: 200px;
+    padding: 5px;
+    top:120px;
+    left:100px;
+}
+
+#watch2
+{
+    position: relative;
+    color: red;  
+    border: 5px solid navy;
+    width: 200px;
+    padding: 5px; 
+    top: 0px;
+    left:940px;
+}
+
+#header
+{
+    color: coral;
+    border: 1px;
+    border-color: blueviolet;
+    border: 5px solid red;
+}
+
+button 
+{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#entry
+{
+    font-size: 20px;
+    font: Verdana;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-weight: bolder;
+    color: white; 
+    top:-80px;
+    color:darkorange;
+    position: relative;
+}
+
+#set1
+{
+    position: relative;
+    top:0px;
+    left:98px;
+}
+
+#set2
+{
+    position: absolute;
+    top:5px;
+    right:140px;
+}
+
+#watches
+{
+   position:relative;
+   top=-25px;
+   left: 20px;
+}
+
+
